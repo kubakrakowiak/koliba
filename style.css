@@ -1,0 +1,253 @@
+body
+{
+    font-family: Lato;
+    font-weight: 400;
+    margin:none;
+    
+    background-size: 100%;
+	margin: 0;
+}
+/*#home 
+{
+    Nic tu nie ma
+}*/
+
+    header
+    {
+
+        position: relative;
+    }
+
+#logo
+{
+    margin-right: auto;
+    margin-left: 0;
+    width:430px;
+    height: 225px;
+}
+ul
+{
+    margin-top:0;
+    position:fixed;
+    right:0;
+    top:0;
+    width:100%;
+    list-style-type: none;
+}
+ul > li
+{
+    color: #000000;
+    float:right;
+    background-color: #700000;
+    padding:20px;
+    text-align:center;
+    border-right: 1px solid #333333;
+    color:white;
+    min-width:7%;
+}
+ul > li:hover
+{
+    background-color: #FFFFFF;
+    color:#700000;
+    font-weight: 900;
+    text-decoration: underline;
+}
+.bgimg
+{
+    background: url("images/bg.jpg") no-repeat , rgb(40,40,40) repeat-y;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index:-1;
+    position: absolute;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgimg #overlay
+{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #111111;
+    opacity: 0.5;
+    z-index:-1;
+}
+#container
+{  
+    margin-top:0;
+    width: 100%;
+
+}
+.text
+{
+    margin-top:0;
+    width:70%;
+    text-align: justify;
+    color: #000000;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+#menu
+{
+    width:1000px;
+    background-color: #333333;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding-bottom: 0px;
+}
+#menu #nag
+{
+    padding-top: 8px;
+    padding-bottom:0px;
+    text-align: left;
+    font-weight: 900;
+    color: white;
+    height: 40px;
+    background: #838383;
+    border-radius: 15px;
+    
+
+}
+#menu #nag input[type=button]
+{
+
+    width: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+/*.menu
+{
+    display: none;
+}*/
+.menu0                   
+{                       
+    display: none;         
+}                          
+                        
+.menu1
+{
+    display: none;
+}
+
+.menu2
+{
+    display: none;
+}
+
+.menu3
+{
+    display: none;
+}
+.menu4
+{
+    display: none;
+}
+.menu5
+{
+    display: none;
+}
+.menu6
+{
+    display: none;
+}
+
+.menuA
+{
+    text-align: center;
+    display: block;
+    border: 1px solid #700000
+}
+
+#b0
+{
+    margin-left: 25px; 
+    display: inline-block;
+}
+#b1
+{
+    margin-left: 10px;             
+    display: inline-block;
+}
+#b2
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+#b3
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+#b4
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+#b5
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+#b6
+{
+    margin-left: 10px;
+    display: inline-block;
+}
+.buttonik
+{
+    /*font-family: Arial; --> del(standardowa czcionka Lato)
+    background: #b8b8b8; --> zmiana na #700000;
+    add font-weight: 400;
+    add float:left;
+    border: solid #707070 1px; --> #700000
+    add margin-left: 10px; display: inline-block; --- Przeniesione z b0, b1, b2...*/
+
+    font-weight: 900;
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 15px;
+    background: #700000;
+    padding: 7px 15px 7px 15px;
+    border: solid #700000 1px;
+    text-decoration: none;
+    cursor: pointer;
+    float:left;
+    
+    margin-left: 10px;
+    display: inline-block;
+}
+.buttonik:hover
+{/*add text-decoration: underline;
+    background: #828282; --> #fff;
+    add color: 700000;
+    add font-weight: 900;*/
+
+    background: #fff;
+    color: #700000;
+    text-decoration: underline;
+
+}
+
+#sss
+{
+font-size: 55px;
+}
+ol
+{
+	list-style-type: none;
+}
