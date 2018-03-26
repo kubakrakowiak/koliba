@@ -18,6 +18,7 @@ body
     margin-left: 0;
     width:430px;
     height: 225px;
+    z-index: -1;
 }
 ul
 {
@@ -69,7 +70,12 @@ ul > li:hover
     left: 0;
     background: #111111;
     opacity: 0.5;
-    z-index:-1;
+    
+}
+#naglowek
+{
+    height: 100vh;
+
 }
 #container
 {  
