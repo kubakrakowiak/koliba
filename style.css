@@ -25,14 +25,13 @@ body
     }
     .logoS
     {
-
         margin-right: auto;
         margin-left: 0;
         width:410px;
         height: 215px;
         z-index: 100;
         position: fixed;
-        transform: scale(0.5);
+        transform: translate3d(-140px, -62px, 0px) scale(0.45);
  
     }
 ul
@@ -41,7 +40,7 @@ ul
     position:fixed;
     right:0;
     top:0;
-    width:100%;
+    width:75%;
     list-style-type: none;
 }
 ul > li
