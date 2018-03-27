@@ -20,18 +20,20 @@ body
         height: 215px;
         z-index: 100;
         position: fixed;
-        transition: all 0.2s ease-in-out;
+        transition: all 1s ease-out;
         
     }
     .logoS
     {
+        width:100%;
         margin-right: auto;
         margin-left: 0;
         width:410px;
         height: 215px;
         z-index: 100;
         position: fixed;
-        transform: translate3d(-140px, -62px, 0px) scale(0.45);
+        transform: translate3d(0px, -80px, 0px) scale(0.3);
+        background-color: rgba(255,255,255,0.7);
  
     }
 ul
@@ -95,6 +97,7 @@ ul > li:hover
 {  
     margin-top:0;
     width: 100%;
+    margin-top:100px;
 
 }
 .text
