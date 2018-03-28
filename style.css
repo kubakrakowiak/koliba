@@ -97,7 +97,7 @@ ul > li:hover
     text-decoration: underline;
 }
 
-#aktualnosci
+#news
 {
     width:1000px;
     height: 300px;
@@ -305,6 +305,70 @@ ol
     font-weight: 900;
     color: #700000;
     text-decoration:underline;
+}
+
+#gallery
+{
+    width:1000px;
+    height: 300px;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 900;
+    text-align: center;
+    font-size: 90px;
+    margin-top:30px;
+    -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+}
+
+#party
+{
+    width:1000px;
+    height: 300px;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 900;
+    text-align: center;
+    font-size: 90px;
+    margin-top:30px;
+    -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+}
+
+#contact
+{
+    width:1000px;
+    height: 300px;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 900;
+    text-align: center;
+    font-size: 90px;
+    margin-top:30px;
+    -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+}
+
+#work
+{
+    width:1000px;
+    height: 300px;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    font-weight: 900;
+    text-align: center;
+    font-size: 90px;
+    margin-top:30px;
+    -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
 }
 
 #sss
