@@ -19,3 +19,24 @@ $('.menu'+nr).addClass('menuA');
 stara=nr;
 }
 
+
+$(document).ready(function() {
+    var NavY = $('#main').offset().top;
+      
+    var stickyNav = function(){
+    var ScrollY = $(window).scrollTop();
+           
+    if (ScrollY > NavY) { 
+        $('#logo').addClass('logoS');
+    } else {
+        $('#logo').removeClass('logoS'); 
+    }
+    };
+      
+    stickyNav();
+      
+    $(window).scroll(function() {
+        stickyNav();
+    });
+    });
+

@@ -18,6 +18,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dosis:800,700">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Great+Vibes">
         <link rel="stylesheet" type="text/css" href="https:/fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" >
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="js/skrypt.js"></script>
@@ -25,10 +26,13 @@
 	<body onload="showing(0)">
 
         <header id="home">
+				
         <div id="tlo1"></div>
-        <div class="bgimg" ><div id="logo"><img src="images/logo.png" width="430px" height="225px"/></div><div id="overlay"></div></div><div id="naglowek"></div>
-
+		<div class="bgimg" ><div id="overlay"></div></div>
+		<div id="naglowek"><div id="logo"><img src="images/logo.png" width="430px" height="225px"/></div></div>
+		
         <nav id="nav">
+				
             <ul>
                 <li>Praca</li>
                 <li>Kontakt</li>
@@ -39,10 +43,12 @@
                 <li>Strona Główna</li>
             </ul>
         </nav>
-        </div>
-    </header>
+	</div>
+	</header>
+	<main id="main">
         <div id="menu">
             <div id="nag">
+										
                 <div id="b0" onclick="showing(0)" style="margin-left: 25px;"><div class="buttonik">Zakąski zimne</div> </div>
                 <div id="b1" onclick="showing(1)"><div class="buttonik">Zakąski na ciepło</div> </div>
                 <div id="b2" onclick="showing(2)"><div class="buttonik">Dania Główne</div> </div>
@@ -52,59 +58,154 @@
                 <div id="b6" onclick="showing(6)"><div class="buttonik">Desery</div> </div>
 
             </div>
-        </div>
-            <div class= "menu0 menu"><ol>
-									<li>Oscypek wędzony 4 zł</li>
-									<li>Oscypek biały 4 zł</li>
-									<li>Chleb ze smalcem 6 zł</li>
-									<li>Pstrąg wędzony 16 zł</li>
-									<li>Śledź w oleju 12 zł</li>
-									<li>Talerzyk przekąsek góralskich 15 zł</li>
-								</ol></div></div>
-            <div class= "menu1 menu"><ol>
-									<li>Bigos 12 zł</li>
-									<li>Placki ziemniaczane 14 zł</li>
-									<li>Przysmak Bacy 14 zł</li>
-									<li>Oscypek grillowany z żurawiną 5 zł</li>
-									<li>Moskole z bryndzą 16 zł</li>
-								</ol></div>
-            <div class= "menu2 menu"><ol>
-									<li>Cycki gaździny ze szpinakiem 25 zł</li>
-									<li>Kotlet schabowy 28 zł</li>
-									<li>Pieczeń zbójnicka 25 zł</li>
-									<li>Golonka 32 zł</li>
-									<li>Placek po zbójnicku 25 zł</li>
-									<li>Wątróbka na pierniku 22 zł</li>
-									<li>Dorsz 26 zł</li>
-									<li>Łosoś 34 zł</li>
-									<li>Halibut 30</li>
-									<li>Pstrąg 25 zł</li>
-									<li>Sola w sosie porowym 25 zł</li>
-								</ol></div>
-            <div class= "menu3 menu"><ol>
-									<li>Rosół 10 zł</li>
-									<li>Pomidorowa 10 zł</li>
-									<li>Kwaśnica 12 zł</li>
-									<li>Rybna 12 zł</li>
-									<li>Żurek 12 zł</li>
-									<li>Czosnkowa 12 zł</li>
-								</ol></div>
-            <div class= "menu4 menu"><ol>
-									<li>Frytki 7 zł</li>
-									<li>Ziemniaki z wody 5 zł</li>
-									<li>Surówka 5 zł</li>
-									<li>Żurawina 2 zł</li>
-									<li>Pieczywo 2 zł</li>
-								</ol></div>
-            <div class= "menu5 menu"><ol>
-									<li>Zestaw śniadaniowy z jajecznicą 21 zł (ser, szynka, dżem, miód)</li>
-									<li>Zestaw śniadaniowy z parówkami 21 zł (ser, szynka, dżem, miód)</li>
-									<li>HERBATA LUB ŚWIEŻY SOK DO ZESTAWU GRATIS</li>
-								</ol></div>
-            <div class= "menu6 menu"><ol>
-									<li>Szarlotka 10 zł</li>
-								</ol></div>
-        </div>
+        
+            <div class= "menu0 menu">
+				<div class="menuP">
+					<ol>
+						<li>Oscypek wędzony</li>
+						<li>Oscypek biały</li>
+						<li>Chleb ze smalcem</li>
+						<li>Pstrąg wędzony</li>
+						<li>Śledź w oleju</li>
+						<li>Talerzyk przekąsek góralskich</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>4zł</li>
+						<li>4zł</li>
+						<li>6zł</li>
+						<li>16zł</li>				
+						<li>12zł</li>				
+						<li>15zł</li>								
+					</ol>				
+				</div>								
+			</div>
+            <div class= "menu1 menu">
+				<div class="menuP">
+					<ol>
+						<li>Bigos</li>
+						<li>Placki ziemniaczane</li>
+						<li>Przysmak Bacy</li>
+						<li>Oscypek grillowany z żurawiną</li>
+						<li>Moskole z bryndzą</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>12zł</li>
+						<li>14zł</li>
+						<li>14zł</li>
+						<li>5zł</li>
+						<li>16zł</li>
+					</ol>
+				</div>
+			</div>
+            <div class= "menu2 menu">
+				<div class="menuP">	
+					<ol>
+						<li>Cycki gaździny ze szpinakiem</li>
+						<li>Kotlet schabowy</li>
+						<li>Pieczeń zbójnicka</li>
+						<li>Golonka</li>
+						<li>Placek po zbójnicku</li>
+						<li>Wątróbka na pierniku</li>
+						<li>Dorsz</li>
+						<li>Łosoś</li>
+						<li>Halibut</li>
+						<li>Pstrąg</li>
+						<li>Sola w sosie porowym</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>25zł</li>
+						<li>28zł</li>
+						<li>25zł</li>
+						<li>32zł</li>
+						<li>25zł</li>
+						<li>22zł</li>
+						<li>26zł</li>
+						<li>34zł</li>
+						<li>30zł</li>
+						<li>25zł</li>
+						<li>25zł</li>
+					</ol>
+				</div>
+			</div>
+            <div class= "menu3 menu">
+				<div class="menuP">
+					<ol>
+						<li>Rosół</li>
+						<li>Pomidorowa</li>
+						<li>Kwaśnica</li>
+						<li>Rybna</li>
+						<li>Żurek</li>
+						<li>Czosnkowa</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>10zł</li>
+						<li>10zł</li>
+						<li>12zł</li>
+						<li>12zł</li>
+						<li>12zł</li>
+						<li>12zł</li>
+					</ol>
+				</div>
+			</div>
+            <div class= "menu4 menu">
+				<div class="menuP">
+					<ol>
+						<li>Frytki</li>
+						<li>Ziemniaki z wody</li>
+						<li>Surówka</li>
+						<li>Żurawina</li>
+						<li>Pieczywo</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>7zł</li>
+						<li>5zł</li>
+						<li>5zł</li>
+						<li>2zł</li>
+						<li>2zł</li>
+					</ol>
+				</div>
+			</div>
+            <div class= "menu5 menu sniadania">
+				<div class="menuP">
+					<ol>
+						<li>Zestaw śniadaniowy z jajecznicą (ser, szynka, dżem, miód)</li>
+						<li>Zestaw śniadaniowy z parówkami (ser, szynka, dżem, miód)</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>21zł</li>
+						<li>21zł</li>
+					</ol>
+				</div>
+				<div id="gratis">
+					HERBATA LUB ŚWIEŻY SOK DO ZESTAWU GRATIS
+				</div>
+			</div>
+            <div class= "menu6 menu">
+				<div class="menuP">
+					<ol>
+						<li>Szarlotka</li>
+					</ol>
+				</div>
+				<div class="ceny">	
+					<ol>
+						<li>10zł</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		</main>
         <div id="sss">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at blandit risus, vitae auctor enim. Donec id tincidunt magna. Nulla congue erat eu risus porta, sed molestie ex tincidunt. Praesent eleifend, massa vel semper convallis, ligula sem congue nunc, a viverra ante arcu sed enim. Quisque eros quam, eleifend vitae nisl et, rhoncus tincidunt tellus. Donec consequat sed sem at lobortis. Vestibulum tincidunt iaculis tincidunt. Curabitur nec condimentum eros.
 
@@ -115,6 +216,8 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 Aenean arcu purus, vestibulum eget lobortis id, vehicula id est. Quisque commodo malesuada enim, eu finibus leo congue sed. Morbi porttitor eros auctor, lacinia odio ut, molestie eros. Curabitur aliquet, velit nec venenatis suscipit, felis diam gravida est, nec dapibus odio ex in risus. Suspendisse luctus tristique aliquet. Ut sed maximus neque. In finibus felis id orci hendrerit, eu tincidunt velit scelerisque. Sed eleifend nulla sem, eget vulputate tellus cursus fermentum. Etiam hendrerit vehicula varius. In cursus nisl lorem, ac luctus sem pulvinar nec. Ut scelerisque nunc velit, non malesuada purus mattis et.
 
 Sed vulputate turpis eros, vitae cursus diam imperdiet ut. Nulla id dui mauris. Aliquam quis elit non est finibus consectetur. Aenean varius elit ut tellus pretium gravida. Nullam quis neque mauris. Morbi vehicula orci est, sit amet egestas lacus scelerisque quis. In sit amet aliquet nunc, eget maximus arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer volutpat imperdiet erat, sit amet aliquam mi lacinia a. Fusce id iaculis lectus, et aliquam nunc. Nulla pretium consequat leo, at tincidunt leo scelerisque eget. Pellentesque posuere justo id metus faucibus, vel vulputate nisi aliquet. Praesent sit amet tortor risus. Proin ac neque eros.
+</div></main>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
 
         </div>

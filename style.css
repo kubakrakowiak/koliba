@@ -4,39 +4,53 @@ body
     font-weight: 400;
     margin:none;
     background-size: 100%;
-	margin: 0;
+    margin: 0;
+    background-color: #666666;
 }
     header
     {
 
         position: relative;
     }
-
-#logo
-{
-    margin-right: auto;
-    margin-left: 0;
-    width:430px;
-    height: 225px;
-    z-index: -1;
-}
-ul
+    #logo
+    {
+        margin-right: auto;
+        margin-left: 0;
+        width:410px;
+        height: 215px;
+        z-index: 100;
+        position: fixed;
+        transition: all 0.2s ease-out;
+        
+    }
+    .logoS
+    {
+        width:100%;
+        margin-right: auto;
+        margin-left: 0;
+        width:410px;
+        height: 215px;
+        z-index: 100;
+        position: fixed;
+        transform: translate3d(0px, -80px, 0px) scale(0.33);
+ 
+    }
+ul /*lista nawigacja*/
 {
     margin-top:0;
     position:fixed;
     right:0;
     top:0;
-    width:100%;
+    width:75%;
     list-style-type: none;
 }
 ul > li
 {
-    color: #000000;
     float:right;
     background-color: #700000;
     padding:20px;
     text-align:center;
-    border-right: 1px solid #333333;
+    border-right: 1px solid rgba(255,255,255,0.99);
     color:white;
     min-width:7%;
 }
@@ -81,6 +95,7 @@ ul > li:hover
 {  
     margin-top:0;
     width: 100%;
+    margin-top:100px;
 
 }
 .text
@@ -96,22 +111,28 @@ ul > li:hover
 }
 #menu
 {
-    width:1000px;
-    background-color: #333333;
+    width:100%;
+    background-color: #fde49f;
     margin-left:auto;
     margin-right: auto;
-    border-radius: 15px;
+    border-radius: none;
     padding-bottom: 0px;
+    -webkit-box-shadow: 0px 0px 36px 1px rgba(70,0,0,1);
+    -moz-box-shadow: 0px 0px 36px 1px rgba(70,0,0,1);
+    box-shadow: 0px 0px 36px 1px rgba(70,0,0,1);
 }
 #menu #nag
 {
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
     padding-top: 8px;
     padding-bottom:0px;
     text-align: left;
     font-weight: 900;
     color: white;
     height: 40px;
-    background: #838383;
+    background: #fde49f;
     border-radius: 15px;
     
 
@@ -127,9 +148,9 @@ ul > li:hover
 
 .menu
 {
-     background-color: rgba(83,83,83,0.7);  
-     width: 900px; 
-     margin-left:auto;
+    background-color: #fde49f;  
+    width:  300px; 
+    margin-left:auto;
     margin-right: auto;
     height: 300px;
 }
@@ -167,9 +188,15 @@ ul > li:hover
 
 .menuA
 {
-    text-align: center;
+    text-align:center;
     display: block;
-    border: 1px solid #700000
+}
+.menuA >.menuP > ol > li
+{
+    color: #700000;
+    list-style-type: disc;
+    text-align: left;
+    
 }
 
 #b0
@@ -254,4 +281,45 @@ font-size: 55px;
 ol
 {
 	list-style-type: none;
+}
+
+
+
+.sticky
+{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+
+.ceny
+{
+    width:30px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center;
+    color:#700000;
+    float:left;
+    
+
+}
+.menuP
+{
+    background-color: #fde49f;  
+    margin-left:auto;
+    margin-right: auto;
+    float:left;
+}
+.sniadania
+{
+    width: 500px;
+}
+#gratis
+{
+    font-weight: 900;
+    color: #700000;
+    text-decoration:underline;
 }
