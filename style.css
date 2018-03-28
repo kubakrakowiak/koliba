@@ -68,7 +68,7 @@ header
     transform: translate3d(0px, -80px, 0px) scale(0.33);
  }
 
-ul /*lista nawigacja*/
+ul/*lista nawigacja*/
 {
     margin-top:0;
     position:fixed;
@@ -78,7 +78,7 @@ ul /*lista nawigacja*/
     list-style-type: none;
 }
 
-ul > li
+a.navlink
 {
     float:right;
     background-color: #700000;
@@ -88,8 +88,7 @@ ul > li
     color:white;
     min-width:7%;
 }
-
-ul > li:hover
+a.navlink:hover
 {
     background-color: #FFFFFF;
     color:#700000;
@@ -369,6 +368,7 @@ ol
     -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
+    margin-bottom: 30px;
 }
 
 #sss
