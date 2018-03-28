@@ -111,7 +111,7 @@ ul > li:hover
 }
 #menu
 {
-    width:1000px;
+    width:100%;
     background-color: #fde49f;
     margin-left:auto;
     margin-right: auto;
