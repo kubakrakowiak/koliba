@@ -21,7 +21,7 @@ stara=nr;
 
 
 $(document).ready(function() {
-    var NavY = $('#main').offset().top;
+    var NavY = $('main').offset().top-200;
       
     var stickyNav = function(){
     var ScrollY = $(window).scrollTop();
