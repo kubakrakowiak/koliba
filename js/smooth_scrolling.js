@@ -3,7 +3,7 @@ $("#n0").click(function() {
         scrollTop: $("#work").offset().top
     }, 2000);
 });
-$("#n1").click(function() {
+$("n1").click(function() {
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
     }, 2000);
