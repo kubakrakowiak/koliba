@@ -107,17 +107,7 @@ ul > li:hover
     font-weight: 900;
     text-align: center;
     font-size: 90px;
-}
-.text
-{
-    margin-top:0;
-    width:70%;
-    text-align: justify;
-    color: #000000;
-    text-align: center;
-    font-weight: 400;
-    color: #FFFFFF;
-
+    margin-top:30px;
 }
 
 #menu
@@ -158,6 +148,34 @@ ul > li:hover
     margin-top: auto;
     margin-bottom: auto;
     
+}
+
+.buttonik
+{
+    font-weight: 900;
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    color: #ffffff;
+    font-size: 15px;
+    background: #700000;
+    padding: 7px 15px 7px 15px;
+    border: solid #700000 1px;
+    text-decoration: none;
+    cursor: pointer;
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.buttonik:hover
+{
+    background: #fff;
+    color: #700000;
+    text-decoration: underline;
 }
 
 .menu
@@ -257,51 +275,12 @@ ul > li:hover
     display: inline-block;
 }
 
-.buttonik
+.menuP
 {
-    font-weight: 900;
-    -webkit-border-radius: 9;
-    -moz-border-radius: 9;
-    border-radius: 9px;
-    -webkit-box-shadow: 0px 1px 3px #666666;
-    -moz-box-shadow: 0px 1px 3px #666666;
-    box-shadow: 0px 1px 3px #666666;
-    color: #ffffff;
-    font-size: 15px;
-    background: #700000;
-    padding: 7px 15px 7px 15px;
-    border: solid #700000 1px;
-    text-decoration: none;
-    cursor: pointer;
-    float: left;
-    margin-left: 10px;
-    display: inline-block;
-}
-
-.buttonik:hover
-{
-    background: #fff;
-    color: #700000;
-    text-decoration: underline;
-}
-
-#sss
-{
-font-size: 55px;
-}
-
-ol
-{
-	list-style-type: none;
-}
-
-.sticky
-{
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 100;
+    background-color: #fde49f;  
+    margin-left:auto;
+    margin-right: auto;
+    float:left;
 }
 
 .ceny
@@ -312,21 +291,6 @@ ol
     text-align:center;
     color:#700000;
     float:left;
-    
-
-}
-
-.menuP
-{
-    background-color: #fde49f;  
-    margin-left:auto;
-    margin-right: auto;
-    float:left;
-}
-
-.sniadania
-{
-    width: 500px;
 }
 
 #gratis
@@ -335,3 +299,46 @@ ol
     color: #700000;
     text-decoration:underline;
 }
+
+#sss
+{
+font-size: 55px;
+}
+
+
+
+.sticky
+{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+
+
+
+
+.sniadania
+{
+    width: 500px;
+}
+
+
+
+
+
+/*Niepotrzebne klasy*/
+.text
+{
+    margin-top:0;
+    width:70%;
+    text-align: justify;
+    color: #000000;
+    text-align: center;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+    
