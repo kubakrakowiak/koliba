@@ -75,14 +75,13 @@ h1
 
 .logoS
 {
-    width:100%;
     margin-right: auto;
     margin-left: 0;
     width:410px;
     height: 215px;
     z-index: 100;
     position: fixed;
-    transform: translate3d(0px, -80px, 0px) scale(0.33);
+    transform: translate3d(0px, -80px, 0px) scale(0.35);
  }
 
 ul/*lista nawigacja*/
@@ -112,6 +111,10 @@ a.navlink:hover
     border-radius: 20px;
 }
 
+a.navlinkS
+{
+    background-color: black;
+}
 #news
 {
     width:100%;
@@ -427,3 +430,8 @@ font-size: 55px;
     top: 0;
     z-index: 100;
 }
+
+
+/*#7b1842 #1f5846
+ #e88eba #1d609c #ad631f #f2933a
+ */
