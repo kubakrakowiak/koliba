@@ -486,6 +486,7 @@ h2
 #kontakt-form-button:hover
 {
     background-color: #661336;
+    cursor:pointer;
 }
 #kontakt-mapa
 {
