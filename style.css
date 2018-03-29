@@ -119,7 +119,6 @@ ul/*lista nawigacja*/
 a.navlink
 {
     color:#fff;
-    background-color:#7b1842;
     float:right;
     padding:20px;
     text-align:center;
@@ -129,7 +128,7 @@ a.navlink
 a.navlink:hover
 {
     font-weight: 900;
-    background-color: #57112e;
+    background-color: #6e163b70;
 }
 
 #news
@@ -183,7 +182,7 @@ a.navlink:hover
     margin-left:auto;
     margin-right:auto;
     padding-top: 8px;
-    padding-bottom:0px;
+    padding-bottom:8px;
     text-align: center;
     font-weight: 900;
     height: 40px;
@@ -348,6 +347,7 @@ ol
 }
 .ceny
 {
+    font-weight: 900;
     width:20px;
     margin-right:auto;
     margin-left:auto;
@@ -359,8 +359,9 @@ ol
 #gratis
 {
     font-weight: 900;
-    color: #700000;
+    color: #c7286a;
     text-decoration:underline;
+    font-size: 30px;
 }
 
 #gallery
