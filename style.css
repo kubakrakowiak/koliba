@@ -402,17 +402,94 @@ ol
 {
     width:100%;
     height: 100vh;
-    background-color: white;
     margin-left:auto;
     margin-right:auto;
     font-weight: 900;
     text-align: center;
     font-size: 90px;
     margin-top:280px;
-    -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
-    -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
-    box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     padding-top:50px;
+    margin-bottom:100px;
+}
+
+#kontakt-all
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:1202px;
+    margin-top:50px;
+}
+
+#kontakt-informacje
+{
+    height: 600px;
+    width:600px;
+    float:left;
+    background-color: #fff;
+    border-right:2px dotted #7b1841;
+
+}
+
+h2
+{
+    text-align:center;
+    color: #7b1841;
+    font-size:50px;
+}
+
+#kontakt-content
+{
+    margin-top:none;
+    width:500px;
+    color: #7b1841;
+    font-size: 19px;
+    font-weight: 400;
+    text-align:left;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.kontakt-nag
+{
+    font-weight: 900;
+}
+
+.kontakt-form /*formularz kontaktowy*/
+{
+    width:300px;
+    padding: 10px;
+    background-color: #d4d4d4;
+    color:#000;
+    border-radius: 20px;
+    margin-top:5px;
+    box-sizing: border-box;
+    outline: none;
+}
+#kontakt-form-wiad
+{
+    height: 50px;
+}
+
+#kontakt-form-button
+{
+    width: 100px;
+   
+    outline: none;
+    color: #fff;
+    background-color: #7b1841;
+    height: 50px;
+    padding:10px;
+    float:right;
+    margin-right:200px;
+    margin-top:10px;
+}
+#kontakt-form-button:hover
+{
+    background-color: #661336;
+}
+#kontakt-mapa
+{
+    float:left;
 }
 
 #work
@@ -422,10 +499,10 @@ ol
     background-color: white;
     margin-left:auto;
     margin-right:auto;
+    margin-top:100px;
     font-weight: 900;
     text-align: center;
     font-size: 90px;
-    margin-top:30px;
     -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
