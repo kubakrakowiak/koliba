@@ -68,10 +68,10 @@ header
 
 #cytat
 {
-    max-width:1000px;
+    max-width:1100px;
     position: absolute;
     top: 35%;
-    left: 27%;
+    left: 20%;
     font-size:50px;
     font-weight: 900;
     color: rgba(255, 255, 255, 0.733);
@@ -129,7 +129,7 @@ a.navlink
 a.navlink:hover
 {
     font-weight: 900;
-    background-color: #70000063;
+    background-color: #7b184263;
     border-radius: 20px;
 }
 
@@ -140,6 +140,7 @@ a.navlink:hover
     background-color: rgb(255, 255, 255);
     margin-left:auto;
     margin-right:auto;
+    margin-top: 150px;
     font-weight: 900;
     text-align: center;
     font-size: 90px;
@@ -453,7 +454,8 @@ font-size: 55px;
 
 /* Tu jest ze skryptu na tabele ta z imprezami */
 
-.tab {
+.tab 
+{
     float: left;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
@@ -462,7 +464,8 @@ font-size: 55px;
 }
 
 /* Style the buttons inside the tab */
-.tab button {
+.tab button 
+{
     display: block;
     background-color: inherit;
     color: black;
@@ -477,17 +480,20 @@ font-size: 55px;
 }
 * {box-sizing: border-box}
 /* Change background color of buttons on hover */
-.tab button:hover {
+.tab button:hover 
+{
     background-color: #ddd;
 }
 
 /* Create an active/current "tab button" class */
-.tab button.active {
+.tab button.active 
+{
     background-color: #ccc;
 }
 
 /* Style the tab content */
-.tabcontent {
+.tabcontent 
+{
     float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
