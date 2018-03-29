@@ -180,16 +180,14 @@ a.navlink:hover
 
 #menu #nag
 {
-    width:1000px;
+    width:55%;
     margin-left:auto;
     margin-right:auto;
     padding-top: 8px;
     padding-bottom:0px;
-    text-align: left;
+    text-align: center;
     font-weight: 900;
-    color: white;
     height: 40px;
-    border-radius: 15px;
     
 
 }
@@ -200,33 +198,33 @@ a.navlink:hover
     width: 100px;
     margin-top: auto;
     margin-bottom: auto;
+    margin:none;
     
 }
 
 .buttonik
 {
     font-weight: 900;
-    -webkit-border-radius: 9;
-    -moz-border-radius: 9;
-    border-radius: 9px;
-    -webkit-box-shadow: 0px 1px 3px #666666;
-    -moz-box-shadow: 0px 1px 3px #666666;
-    box-shadow: 0px 1px 3px #666666;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 1px 3px #000000;
+    -moz-box-shadow: 0px 1px 3px #000000;
+    box-shadow: 0px 1px 3px #000000;
     color: #ffffff;
     font-size: 15px;
-    background: #700000;
+    background: #7b1842;
     padding: 7px 15px 7px 15px;
-    border: solid #700000 1px;
     text-decoration: none;
     cursor: pointer;
     float: left;
-    margin-left: 10px;
+    margin:none;
     display: inline-block;
 }
 
 .buttonik:hover
 {
-    background: #580000;
+    background: #611334;
     text-decoration: underline;
 }
 
@@ -274,11 +272,12 @@ a.navlink:hover
 {
     text-align:center;
     display: block;
+   
 }
 
 .menuA >.menuP > ol > li
 {
-    color: #700000;
+    color: #ffffff;
     list-style-type: disc;
     text-align: left;
     background: none;
@@ -332,6 +331,16 @@ a.navlink:hover
     margin-left:auto;
     margin-right: auto;
     float:left;
+    
+}
+
+#menu-c /*przyciemnienie tła menu*/
+{
+    background-color: #00000079;
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius: 30px;
 }
 
 ol
@@ -340,11 +349,11 @@ ol
 }
 .ceny
 {
-    width:30px;
+    width:50px;
     margin-right:auto;
     margin-left:auto;
     text-align:center;
-    color:#700000;
+    color:#ffffff;
     float:left;
 }
 
