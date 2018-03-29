@@ -166,7 +166,8 @@ a.navlink:hover
 {
     padding-top:50px;
     width:100%;
-    background-color: #fde49f;
+    background: url('images/menu-tło.jpg') no-repeat;
+    background-size: 100% 100%;
     margin-left:auto;
     margin-right: auto;
     border-radius: none;
@@ -188,7 +189,6 @@ a.navlink:hover
     font-weight: 900;
     color: white;
     height: 40px;
-    background: #fde49f;
     border-radius: 15px;
     
 
@@ -232,7 +232,6 @@ a.navlink:hover
 
 .menu
 {
-    background-color: #fde49f;  
     width:  300px; 
     margin-left:auto;
     margin-right: auto;
@@ -282,6 +281,7 @@ a.navlink:hover
     color: #700000;
     list-style-type: disc;
     text-align: left;
+    background: none;
     
 }
 
@@ -328,8 +328,7 @@ a.navlink:hover
 }
 
 .menuP
-{
-    background-color: #fde49f;  
+{  
     margin-left:auto;
     margin-right: auto;
     float:left;
