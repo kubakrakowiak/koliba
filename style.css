@@ -132,6 +132,9 @@ a.navlink:hover
 .navS
 {
     background-color: #7b1842;
+    -webkit-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
 }
 
 .navS:hover
