@@ -131,6 +131,13 @@ a.navlink:hover
     background-color: #6e163b70;
 }
 
+
+#extender
+{
+    width: 100%;
+    height: 20vh;
+}
+
 #news
 {
     width:100%;
@@ -138,7 +145,7 @@ a.navlink:hover
     background-color: rgb(255, 255, 255);
     margin-left:auto;
     margin-right:auto;
-    margin-top: 150px;
+
     font-weight: 900;
     text-align: center;
     font-size: 90px;

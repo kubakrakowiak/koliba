@@ -41,7 +41,25 @@ $(document).ready(function() {
     });
 
 
-
+    $(document).ready(function() {
+        var NavY = $('#extender').offset().top;
+          
+        var stickyNav = function(){
+        var ScrollY = $(window).scrollTop();
+               
+        if (ScrollY > NavY) { 
+            $('#nav').addClass('navS');
+        } else {
+            $('#nav').removeClass('navS'); 
+        }
+        };
+          
+        stickyNav();
+          
+        $(window).scroll(function() {
+            stickyNav();
+        });
+        });
 
 // handle links with @href started with '#' only
 $(document).on('click', 'a[href^="#"]', function(e) {
