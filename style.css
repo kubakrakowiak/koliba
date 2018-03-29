@@ -123,7 +123,7 @@ a.navlink
     padding:20px;
     text-align:center;
     min-width:12%;
-    text-decoration: none;
+    text-decoration: none;  
 }
 a.navlink:hover
 {
@@ -131,6 +131,10 @@ a.navlink:hover
     background-color: #6e163b70;
 }
 
+.navS
+{
+    background-color: #7b1842;
+}
 
 #extender
 {

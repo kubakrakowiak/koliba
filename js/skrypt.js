@@ -48,9 +48,9 @@ $(document).ready(function() {
         var ScrollY = $(window).scrollTop();
                
         if (ScrollY > NavY) { 
-            $('#nav').addClass('navS');
+            $('a.navlink').addClass('navS');
         } else {
-            $('#nav').removeClass('navS'); 
+            $('a.navlink').removeClass('navS'); 
         }
         };
           
