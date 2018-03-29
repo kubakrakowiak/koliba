@@ -118,19 +118,23 @@ ul/*lista nawigacja*/
 
 a.navlink
 {
+    color:#fff;
+    background-color:#7b1842;
     float:right;
-    background-color: #70000000;
     padding:20px;
     text-align:center;
+<<<<<<< HEAD
     color:#000;
     min-width:7%;
+=======
+    min-width:12%;
+>>>>>>> a100d32e61e1c5d8723cd56152a48cb76983e95b
     text-decoration: none;
 }
 a.navlink:hover
 {
     font-weight: 900;
-    background-color: #7b184263;
-    border-radius: 20px;
+    background-color: #57112e;
 }
 
 #news
