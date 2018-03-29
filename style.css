@@ -96,15 +96,13 @@ h1
 
 .logoS
 {
-    width:100%;
-    margin-right: auto;
+    width:135.3px;
+    margin-right: 0;
     margin-left: 0;
-    width:410px;
-    height: 215px;
-    z-index: 100;
-    position: fixed;
+    height: 70.95px;
     transform: translate3d(0px, -80px, 0px) scale(0.33);
- }
+    background-color: #7b1842;
+}
 
 ul/*lista nawigacja*/
 {
@@ -136,6 +134,10 @@ a.navlink:hover
     background-color: #7b1842;
 }
 
+.navS:hover
+{
+    background-color: #55112d;
+}
 #extender
 {
     width: 100%;
@@ -149,7 +151,6 @@ a.navlink:hover
     background-color: rgb(255, 255, 255);
     margin-left:auto;
     margin-right:auto;
-
     font-weight: 900;
     text-align: center;
     font-size: 90px;
@@ -173,9 +174,9 @@ a.navlink:hover
 }
 #menu
 {
-    padding-top:50px;
-    width:100%;
-    background: url('images/menu-tło.jpg') no-repeat;
+    padding:20px;
+    width:60%;
+    background: #ffffff;
     background-size: 100% 100%;
     margin-left:auto;
     margin-right: auto;
@@ -189,11 +190,11 @@ a.navlink:hover
 
 #menu #nag
 {
-    width:55%;
+    border-bottom: 2px dashed #7b1842;
     margin-left:auto;
     margin-right:auto;
     padding-top: 8px;
-    padding-bottom:8px;
+    padding-bottom:50px;
     text-align: center;
     font-weight: 900;
     height: 40px;
@@ -206,7 +207,6 @@ a.navlink:hover
 
     width: 100px;
     margin-top: auto;
-    margin-bottom: auto;
     margin:none;
     
 }
@@ -226,15 +226,14 @@ a.navlink:hover
     padding: 7px 15px 7px 15px;
     text-decoration: none;
     cursor: pointer;
-    float: left;
-    margin:none;
+    float:left;
+    margin-bottom: 10px;
     display: inline-block;
 }
 
 .buttonik:hover
 {
     background: #611334;
-    text-decoration: underline;
 }
 
 .menu
@@ -286,7 +285,7 @@ a.navlink:hover
 
 .menuA >.menuP > ol > li
 {
-    color: #ffffff;
+    color: #7b1842;
     list-style-type: disc;
     text-align: left;
     background: none;
@@ -295,43 +294,36 @@ a.navlink:hover
 
 #b0
 {
-    margin-left: 25px; 
     display: inline-block;
 }
 
 #b1
-{
-    margin-left: 10px;             
+{           
     display: inline-block;
 }
 
 #b2
 {
-    margin-left: 10px;
     display: inline-block;
 }
 
 #b3
 {
-    margin-left: 10px;
     display: inline-block;
 }
 
 #b4
 {
-    margin-left: 10px;
     display: inline-block;
 }
 
 #b5
 {
-    margin-left: 10px;
     display: inline-block;
 }
 
 #b6
 {
-    margin-left: 10px;
     display: inline-block;
 }
 
@@ -345,7 +337,6 @@ a.navlink:hover
 
 #menu-c /*przyciemnienie tła menu*/
 {
-    background-color: #00000079;
     width:50%;
     margin-right:auto;
     margin-left:auto;
@@ -363,14 +354,14 @@ ol
     margin-right:auto;
     margin-left:auto;
     text-align:center;
-    color:#ffffff;
+    color:#7b1842;
     float:left;
 }
 
 #gratis
 {
     font-weight: 900;
-    color: #c7286a;
+    color: #7b1842;
     text-decoration:underline;
     font-size: 30px;
 }
