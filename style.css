@@ -283,7 +283,6 @@ a.navlink:hover
 {
     text-align:center;
     display: block;
-   
 }
 
 .menuA >.menuP > ol > li
@@ -471,7 +470,9 @@ h2
     margin-top:5px;
     box-sizing: border-box;
     outline: none;
+    border: none;
 }
+
 #kontakt-form-wiad
 {
     height: 50px;
@@ -493,8 +494,15 @@ h2
 }
 #kontakt-form-button:hover
 {
-    background-color: #661336;
+    background-color: #72163c;
     cursor:pointer;
+}
+#kontakt-form-button:active
+{
+    border: 2px solid #00ff00;
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
 }
 #kontakt-mapa
 {
