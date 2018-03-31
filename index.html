@@ -280,11 +280,13 @@
 						<span class="kontakt-nag">Numer telefonu: </span>501 35 96 98<br/><br/>
 						<span class="kontakt-nag">Adres e-mail: </span>biuro@koliba.pl<br/><span style="font-size: 15px;">Biuro czynne od poniedziałku do piątku w godzinach 10:00 – 18:00</span><br/><br/>
 						<span class="kontakt-nag">Napisz do nas:</span><br/>
-						<input type="text" placeholder="Imię" class="kontakt-form"><br/>
-						<input type="text" placeholder="Adres e-mail"  class="kontakt-form"><br/>
-						<input type="text" placeholder="Telefon"  class="kontakt-form"><br/>
-						<input type="text" placeholder="Wiadomość"  class="kontakt-form" id="kontakt-form-wiad"><br/>
-						<button id="kontakt-form-button">WYŚLIJ >></button>
+			
+						<form action="kontakt.php" method="post">
+							<input type="text" name="email" placeholder="Adres e-mail"  class="kontakt-form"><br/>
+							<textarea name="content" cols="30" rows="6" placeholder="Wiadomość" class="kontakt-form" id="kontakt-form-wiad"></textarea>
+							<!--<input type="text" placeholder="Wiadomość"  class="kontakt-form" id="kontakt-form-wiad"><br/>*/-->
+							<input type="submit" value="Wyślij>>" id="contact-form-button"/>
+						</form>
 					</div>
 				</div>
 			</div>

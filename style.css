@@ -467,7 +467,7 @@ h2
     padding: 10px;
     background-color: #d4d4d4;
     color:#000;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     margin-top:5px;
     box-sizing: border-box;
     outline: none;
@@ -476,10 +476,11 @@ h2
 
 #kontakt-form-wiad
 {
-    height: 50px;
+    height: 100px;
+    width:500px;
 }
 
-#kontakt-form-button
+#contact-form-button
 {
     width: 100px;
     border: none;
@@ -491,16 +492,11 @@ h2
     float:right;
     margin-right:200px;
     margin-top:10px;
-    border-radius: 20px;
-    transition: transform 0.2s;
+    /*border-radius: 20px;*/
+    transition: all 0.2s ease-out;
 }
-#kontakt-form-button:hover
-{
-    background-color: #72163c;
-    cursor:pointer;
-    transform: scale(1.05);
-}
-#kontakt-form-button:active
+
+#contact-form-button:active
 {
     transform: scale(0.95);
     /*-webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
