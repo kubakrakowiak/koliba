@@ -48,9 +48,11 @@ $(document).ready(function() {
         var ScrollY = $(window).scrollTop();
                
         if (ScrollY > NavY) { 
+            $('ul').addClass('ulS');
             $('a.navlink').addClass('navS');
         } else {
-            $('a.navlink').removeClass('navS'); 
+            $('ul').removeClass('ulS');
+            $('a.navlink').removeClass('navS');
         }
         };
           
@@ -81,3 +83,5 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     // animated top scrolling
     $('body, html').animate({scrollTop: pos-50});
 });
+
+

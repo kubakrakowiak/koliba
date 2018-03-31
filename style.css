@@ -109,35 +109,37 @@ ul/*lista nawigacja*/
     position:fixed;
     right:0;
     top:0;
-    width:75%;
-    list-style-type: none;
-}
-
-a.navlink
-{
-    color:#fff;
-    float:right;
-    padding:20px;
-    text-align:center;
-    min-width:12%;
-    text-decoration: none;  
+    width:100%;
+    list-style-type: none; 
     transition: all 0.5s ease-out;
 }
-a.navlink:hover
+   
+.ulS
 {
-    background-color: #6e163b70;
-}
-.navS
-{
-    background-color: #7b1842;
+    background-color: #7b1841c0;
     -webkit-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
     box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
 }
-
-.navS:hover
+a.navlink
 {
-    background-color: #55112d;
+    color: #fff;
+    float:right;
+    padding:20px;
+    text-align:center;
+    min-width:10%;
+    text-decoration: none;  
+    transition: all 1s ease-out;
+    transition: border 0s ease-out;
+}
+
+a.navlink:hover
+{
+    background-color: #7b1841;  
+}
+.navS
+{
+    border-right: 1px dotted #fff;
 }
 
 #extender
@@ -490,15 +492,17 @@ h2
     margin-right:200px;
     margin-top:10px;
     border-radius: 20px;
+    transition: transform 0.2s;
 }
 #kontakt-form-button:hover
 {
     background-color: #72163c;
     cursor:pointer;
+    transform: scale(1.05);
 }
 #kontakt-form-button:active
 {
-    border: 2px solid #ffffff;
+    transform: scale(0.95);
     /*-webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);*/
