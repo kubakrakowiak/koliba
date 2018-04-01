@@ -27,9 +27,9 @@ $(document).ready(function() {
     var ScrollY = $(window).scrollTop();
            
     if (ScrollY > NavY) { 
-        $('#logo').addClass('logoS');
+        $('.logo').addClass('logoS');
     } else {
-        $('#logo').removeClass('logoS'); 
+        $('.logo').removeClass('logoS'); 
     }
     };
       

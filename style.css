@@ -83,8 +83,10 @@ h1
     font-size:60px;
     font-style: italic;
 }
-#logo
+.logo
 {
+    background: url('images/logo.png');
+    background-size: 100%;
     margin-right: auto;
     margin-left: 0;
     width: 410px;
@@ -96,10 +98,11 @@ h1
 
 .logoS
 {
-    width:135.3px;
-    margin-right: 0;
-    margin-left: 0;
-    height: 70.95px;
+    background: url('images/logo2.png');
+    background-size: 100%;
+    position: fixed;
+    top: 0%;
+    left: 3.5%;
     transform: translate3d(0px, -80px, 0px) scale(0.33);
 }
 
