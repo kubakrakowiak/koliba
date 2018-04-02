@@ -8,16 +8,18 @@
 </head>
 <body>
     <?php
-        $adresat = 'ostmati2@gmail.com';
-        @$email = $_POST['email'];
-        @$content = $_POST['content'];
-        $header = "Od: ".email." \nContent-Type:".
-                    ' text/plain; charset="utf-8"'.
-                    "\nContent-Transfer-Encoding: 8bit";
-                
-        if (mail($adresat, 'List ze strony', $content, $header))
-            echo '<p>działa</p>';
-            else echo '<p><b>NIE</b> wysłano maila!</p';
+        ini_set("sendmail_from", "mateusz.ostanowko@gmail.com");
+       $email = $_POST['email'];
+       $content = $_POST['content'];
+
+       if(mail("ostmati2@gmail.com", 'Wiadomość ze strony koliba.pl,"<br/>"Mail nadawcy: '.$email, $content))
+       {
+           echo '<div id="statement"> Wiadomość została wysłana poprawnie </div>';
+       }
+       else
+       {
+            echo '<div id="statement">Błąd, wiadomość nie została wysłana!</div>';
+       }
     ?>
 </body>
 </html>

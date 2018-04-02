@@ -461,7 +461,7 @@ h2
     font-weight: 900;
 }
 
-.kontakt-form /*formularz kontaktowy*/
+.contact-form /*formularz kontaktowy*/
 {
     width:300px;
     padding: 10px;
@@ -474,7 +474,7 @@ h2
     border: none;
 }
 
-#kontakt-form-wiad
+#contact-form-mess
 {
     height: 100px;
     width:500px;
