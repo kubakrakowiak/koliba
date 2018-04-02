@@ -88,11 +88,11 @@ h1
     background: url('images/logo.png');
     background-size: 100%;
     margin-right: auto;
-    margin-left: 0;
     width: 410px;
     height: 215px;
     z-index: 100;
     position: fixed;
+    left: 3%;
     transition: all 0.2s ease-out;
 }
 
@@ -102,7 +102,7 @@ h1
     background-size: 100%;
     position: fixed;
     top: 0%;
-    left: 3.5%;
+    left: 3%;
     transform: translate3d(0px, -80px, 0px) scale(0.33);
 }
 
