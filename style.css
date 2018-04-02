@@ -92,7 +92,7 @@ h1
     height: 215px;
     z-index: 100;
     position: fixed;
-    left: 3%;
+    left: -1%;
     transition: all 0.2s ease-out;
 }
 
@@ -100,9 +100,6 @@ h1
 {
     background: url('images/logo2.png');
     background-size: 100%;
-    position: fixed;
-    top: 0%;
-    left: 3%;
     transform: translate3d(0px, -80px, 0px) scale(0.33);
 }
 
@@ -142,7 +139,7 @@ a.navlink:hover
 }
 .navS
 {
-    border-right: 1px dotted #fff;
+    border-right: 1px dashed #fff;
 }
 
 #extender
