@@ -8,11 +8,11 @@
 </head>
 <body>
     <?php
-        ini_set("sendmail_from", "mateusz.ostanowko@gmail.com");
+        ini_set("sendmail_from", "serwer@serwer.pl");
        $email = $_POST['email'];
        $content = $_POST['content'];
 
-       if(mail("ostmati2@gmail.com", 'Wiadomość ze strony koliba.pl,"<br/>"Mail nadawcy: '.$email, $content))
+       if(mail("admin@serwer.pl", 'Wiadomość ze strony koliba.pl,"<br/>"Mail nadawcy: '.$email, $content))
        {
            echo '<div id="statement"> Wiadomość została wysłana poprawnie </div>';
        }
