@@ -116,7 +116,7 @@ ul/*lista nawigacja*/
    
 .ulS
 {
-    background-color: #7b1841c0;
+    background-color: #7b1841;
     -webkit-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
     box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
@@ -129,17 +129,17 @@ a.navlink
     text-align:center;
     min-width:10%;
     text-decoration: none;  
-    transition: all 1s ease-out;
-    transition: border 0s ease-out;
+    transition: all 5s;
+    transition: border 0s;
 }
 
 a.navlink:hover
 {
-    background-color: #7b1841;  
+    border-bottom: 3px solid #fff;
 }
 .navS
 {
-    border-right: 1px dashed #fff;
+    
 }
 
 #extender
