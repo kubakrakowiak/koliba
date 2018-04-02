@@ -76,6 +76,7 @@ header
     font-weight: 900;
     color: rgba(255, 255, 255, 0.733);
     text-align:right;
+    cursor: default;
 }
 h1
 {
