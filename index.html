@@ -298,7 +298,23 @@
 
 		<!--Praca-->
 		<div id="work">
-				TUTAJ BĘDZIE PRACA
+			<h3>PRACA</h3>
+			Poszukujemy osoby chętne do pracy na stanowisku: <br/>
+					<div id="worklist">
+						<span class="worklist-rec">-Kucharz<br/></span>
+						<span class="worklist-rec">-Pomoc kuchenna<br/></span>
+						<span class="worklist-rec">-Kelner<br/></span>
+						<span class="worklist-rec">-Kierownik sali<br/><br/></span>
+					</div>
+
+			Aplikacje prosimy przesyłać na adres: biuro@koliba.pl <br/>lub poprzez formularz kontaktowy:<br/><br/>
+
+			<form action="kontakt.php" method="post" id="workform">
+					<input type="text" name="email" placeholder="Adres e-mail"  class="contact-form"><br/>
+					<textarea name="content" placeholder="Wiadomość" class="contact-form" id="contact-form-mess"></textarea>
+					<!--<input type="text" placeholder="Wiadomość"  class="kontakt-form" id="kontakt-form-wiad"><br/>*/-->
+					<input type="submit" value="Wyślij>>" id="contact-form-button"/>
+				</form>
 		</div>
 	</main>
 
