@@ -91,7 +91,7 @@ h1
     margin-right: auto;
     width: 410px;
     height: 215px;
-    z-index: 100;
+    z-index: 101;
     position: fixed;
     left: -1%;
     transition: all 0.2s ease-out;
