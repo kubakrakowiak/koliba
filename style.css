@@ -134,6 +134,7 @@ a.navlink
     transition: all 5s;
     transition: border 0s;
     border-bottom: 5px solid #ffffff00;
+    transition: all 1s ease-out;
 }
 
 a.navlink:hover
@@ -415,7 +416,7 @@ ol
     margin-right:auto;
     font-weight: 900;
     text-align: center;
-    font-size: 90px;
+    font-size: 9vh;
     margin-top:30vh;
     padding-top:5vh;
     margin-bottom:10vh;
@@ -445,15 +446,16 @@ h2
 {
     text-align:center;
     color: #7b1841;
-    font-size:50px;
+    font-size:60%;
+    margin-bottom: 2vh;
 }
 
 #kontakt-content
 {
     margin-top:none;
-    width:500px;
+    width:80%;
     color: #7b1841;
-    font-size: 19px;
+    font-size: 2.2vh;
     font-weight: 400;
     text-align:left;
     margin-right:auto;
@@ -467,12 +469,12 @@ h2
 
 .contact-form /*formularz kontaktowy*/
 {
-    width:300px;
-    padding: 10px;
+    width:30%;
+    padding: 1%;
     background-color: #d4d4d4;
     color:#000;
     /*border-radius: 20px;*/
-    margin-top:5px;
+    margin-top:0.5vh;
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -480,23 +482,24 @@ h2
 
 #contact-form-mess
 {
-    height: 100px;
-    width:500px;
+    height: 11vh;
+    width:100%;
 }
 
 #contact-form-button
 {
-    width: 100px;
+    width: 20%;
     border: none;
     outline: none;
     color: #fff;
     background-color: #7b1841;
-    height: 50px;
-    padding:10px;
+    height: 5vh;
+    padding:1%;
     float:right;
-    margin-right:200px;
-    margin-top:10px;
+    margin-right:20%;
+    margin-top:1vh;
     /*border-radius: 20px;*/
+    font-size: 2vh;
     transition: all 0.2s ease-out;
 }
 
