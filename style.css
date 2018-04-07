@@ -99,7 +99,7 @@ h1
 
 .logoS
 {
-    background: url('images/logo2.png');
+    /*background: url('images/logo2.png');*/
     background-size: 100%;
     transform: translate3d(0px, -80px, 0px) scale(0.33);
 }
@@ -112,19 +112,19 @@ ul/*lista nawigacja*/
     top:0;
     width:100%;
     list-style-type: none; 
-    transition: all 0.5s ease-out;
+    transition: all 1s ease-out;
 }
    
 .ulS
 {
-    background-color: #7b1841;
+    background-color: #ffffff;
     -webkit-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
     box-shadow: -2px 4px 5px 1px rgba(0,0,0,0.75);
 }
 a.navlink
 {
-    color: #fff;
+    color: #ffffff;
     float:right;
     padding:1.1%;
     text-align:center;
@@ -132,15 +132,17 @@ a.navlink
     text-decoration: none;  
     transition: all 5s;
     transition: border 0s;
+    border-bottom: 5px solid #ffffff00;
 }
 
 a.navlink:hover
 {
-    border-bottom: 3px solid #fff;
+    border-bottom: 5px solid #7b1842;
 }
 .navS
 {
-    border-bottom: 3px solid #7b1841;
+    border-bottom: 5px solid #7b1842;
+    color: #7b1842 !important;
 }
 
 #extender
