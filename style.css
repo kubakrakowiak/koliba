@@ -113,6 +113,7 @@ ul/*lista nawigacja*/
     width:100%;
     list-style-type: none; 
     transition: all 1s ease-out;
+    z-index: 100 !important;
 }
    
 .ulS
@@ -506,9 +507,20 @@ h2
 -moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);*/
 }
-#kontakt-mapa
-{
-    float:left;
+
+.kontakt-mapa {
+    position: relative;
+    padding-bottom: 75%; /* Tutaj regulujemy wysokość*/
+    height: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+.kontakt-mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 63.6vh ;
+    width: 63.6% ;
 }
 
 #work
