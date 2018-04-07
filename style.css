@@ -68,7 +68,7 @@ header
 
 #cytat
 {
-    max-width:1100px;
+    max-width:70%;
     position: absolute;
     top: 35%;
     left: 20%;
@@ -126,7 +126,7 @@ a.navlink
 {
     color: #fff;
     float:right;
-    padding:20px;
+    padding:1.1%;
     text-align:center;
     min-width:10%;
     text-decoration: none;  
@@ -166,20 +166,20 @@ a.navlink:hover
 }
 #posty
 {
-    width:1560px;
+    width:96%;
     margin-right:auto;
     margin-left:auto;
 }
 .post
 {
     float:left;
-    margin:10px;
-    width:500px;
-    height:700px;
+    margin:1%;
+    width:30%;
+    height:90vh;
 }
 #menu
 {
-    padding:20px;
+    padding:2%;
     width:60%;
     background: #ffffff;
     background-size: 100% 100%;
@@ -190,7 +190,7 @@ a.navlink:hover
     -webkit-box-shadow: 0px 0px 36px 1px rgba(70,0,0,1);
     -moz-box-shadow: 0px 0px 36px 1px rgba(70,0,0,1);
     box-shadow: 0px 0px 36px 1px rgba(70,0,0,1);
-    margin-top:30px;
+    margin-top:2%;
 }
 
 #menu #nag
@@ -198,11 +198,11 @@ a.navlink:hover
     border-bottom: 2px dashed #7b1842;
     margin-left:auto;
     margin-right:auto;
-    padding-top: 8px;
-    padding-bottom:50px;
+    padding-top: 0.5%;
+    padding-bottom:2%;
     text-align: center;
     font-weight: 900;
-    height: 40px;
+    height: 2%;
     
 
 }
@@ -210,7 +210,7 @@ a.navlink:hover
 #menu #nag input[type=button]
 {
 
-    width: 100px;
+    width: 20%;
     margin-top: auto;
     margin:none;
     
@@ -232,7 +232,7 @@ a.navlink:hover
     text-decoration: none;
     cursor: pointer;
     float:left;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     display: inline-block;
 }
 
@@ -243,10 +243,10 @@ a.navlink:hover
 
 .menu
 {
-    width:  300px; 
+    width:  60%; 
     margin-left:auto;
     margin-right: auto;
-    height: 300px;
+    height: 30vh;
 }
 
 .menu0                   
@@ -354,7 +354,7 @@ ol
 .ceny
 {
     font-weight: 900;
-    width:20px;
+    width:2%;
     margin-right:auto;
     margin-left:auto;
     text-align:center;
@@ -380,11 +380,11 @@ ol
     font-weight: 900;
     text-align: center;
     font-size: 90px;
-    margin-top:30px;
+    margin-top:3vh;
     -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
-    padding-top:50px;
+    padding-top:5vh;
 }
 
 #party
@@ -397,11 +397,11 @@ ol
     font-weight: 900;
     text-align: center;
     font-size: 50px;
-    margin-top:250px;
+    margin-top:30vh;
     -webkit-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     -moz-box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
     box-shadow: 0px 0px 62px -9px rgba(70,0,0,0.75);
-    padding-top:50px;
+    padding-top:5vh;
 }
 
 #contact
@@ -413,9 +413,9 @@ ol
     font-weight: 900;
     text-align: center;
     font-size: 90px;
-    margin-top:280px;
-    padding-top:50px;
-    margin-bottom:100px;
+    margin-top:30vh;
+    padding-top:5vh;
+    margin-bottom:10vh;
 }
 
 #kontakt-all
@@ -424,14 +424,14 @@ ol
     margin-right:auto;
     margin-top:auto;
     margin-bottom:auto;
-    width:1202px;
-    margin-top:50px;
+    width:70%;
+    margin-top:5vh;
 }
 
 #kontakt-informacje
 {
-    height: 600px;
-    width:600px;
+    height: 63.6vh;
+    width: 50%;
     float:left;
     background-color: #fff;
     border-right:2px dotted #7b1841;
