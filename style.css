@@ -6,6 +6,7 @@ body
     background-size: 100%;
     margin: 0;
     background-color: #7b1842;
+    cursor: default;
 }
 
 header
@@ -101,9 +102,17 @@ h1
 {
     /*background: url('images/logo2.png');*/
     background-size: 100%;
-    transform: translate3d(0px, -80px, 0px) scale(0.33);
+    transform: translate3d(0px, -8.1vh, 0px) scale(0.33);
 }
 
+#logolink
+{
+    display:block;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+    
+}
 ul/*lista nawigacja*/
 {
     margin-top:0;
@@ -145,6 +154,12 @@ a.navlink:hover
 {
     border-bottom: 5px solid #7b1842;
     color: #7b1842 !important;
+    
+}
+
+.nav-active
+{
+    border-bottom: 5px solid #7b1842;
 }
 
 #extender
@@ -235,7 +250,6 @@ a.navlink:hover
     padding: 7px 15px 7px 15px;
     text-decoration: none;
     cursor: pointer;
-    float:left;
     margin-bottom: 1%;
     display: inline-block;
 }

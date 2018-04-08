@@ -84,4 +84,3 @@ $(document).on('click', 'a[href^="#"]', function(e) {
     $('body, html').animate({scrollTop: pos-50});
 });
 
-
